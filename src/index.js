@@ -27,14 +27,14 @@ class TimeUpDown extends React.Component {
                     </h1>
                 </div>
                 <div style={{ display: 'table', margin: 'auto' }}>
-                    <button class={'MyButton'} onClick={() => { setTime(getTime() + 60 * 60000); start(); }}>+</button>
-                    <button class={'MyButton'} onClick={() => { setTime(getTime() + 60000); start(); }}>+</button>
+                    <button className={'MyButton'} onClick={() => { setTime(getTime() + 60 * 60000); start(); }}>+</button>
+                    <button className={'MyButton'} onClick={() => { setTime(getTime() + 60000); start(); }}>+</button>
                     <button onClick={() => { setTime(getTime() + 1000); start(); }}>+</button>
 
                 </div>
-                <div class={'divtop'} style={{ display: 'table', margin: 'auto' }}>
-                    <button class={'MyButton'} onClick={() => { getTime() - 60 * 60000 > 0 ? setTime(getTime() - 60 * 60000) : setTime(0) }}>-</button>
-                    <button class={'MyButton'} onClick={() => { getTime() - 60000 > 0 ? setTime(getTime() - 60000) : setTime(0) }}>-</button>
+                <div className={'divtop'} style={{ display: 'table', margin: 'auto' }}>
+                    <button className={'MyButton'} onClick={() => { getTime() - 60 * 60000 > 0 ? setTime(getTime() - 60 * 60000) : setTime(0) }}>-</button>
+                    <button className={'MyButton'} onClick={() => { getTime() - 60000 > 0 ? setTime(getTime() - 60000) : setTime(0) }}>-</button>
                     <button onClick={() => { getTime() - 1000 > 0 ? setTime(getTime() - 1000) : setTime(0) }}>-</button>
 
                 </div>
