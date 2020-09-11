@@ -1,0 +1,19 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  h1 {
+    font-size: 100px;
+    display: flex;
+    margin: auto;
+  }
+  .MyButton {
+      margin: auto;
+      margin-right: 50px;
+  }
+  button {
+      width: 70px;;
+  }
+  .divtop{
+    padding-top: 10px;
+  }
